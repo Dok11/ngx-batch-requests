@@ -209,7 +209,7 @@ export class BatchRequestsService {
       contentTypeHeaderValue.indexOf(CONTENT_TYPE_BATCH) === -1
     ) {
       throw new Error(
-        `A batched response must contain a ${CONTENT_TYPE}: ${CONTENT_TYPE_MIXED} header`
+        `A batched response must contain a ${CONTENT_TYPE}: ${CONTENT_TYPE_BATCH} header`
       );
     }
 
